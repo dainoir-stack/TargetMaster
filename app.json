@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TargetMaster",
+    "slug": "targetmaster",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FCFBF4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dai.noir.targetmaster"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFD700"
+      },
+      "package": "com.dai.noir.targetmaster"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "output": "static",
+  "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1115fc89-aba8-4f10-96d3-d20cdfe9399e"
+      }
+    },
+    "owner": "dai.noir"
+  }
+}
